@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Radar",
+  "name": "Сервіс для відстеження сигналів тривоги по Україні",
   "icons": [
     {
       "src": "favicon.ico",
