@@ -117,7 +117,7 @@ body {
 	clear: both;
 	position: relative;
 	width: 100%;
-	padding: 22.5px 50px;
+	padding: 22.5px;
 }
 
 .ant-layout-footer p { margin: 0 }
