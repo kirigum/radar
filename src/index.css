@@ -137,7 +137,7 @@ body {
 .languageSelector {
 	position: absolute;
 	top: -5px;
-	right: 25px;
+	right: 30px;
 }
 
 .languageBtn {
@@ -152,4 +152,16 @@ body {
 .languageBtn[disabled] {
 	cursor: not-allowed;
 	color: rgb(255 255 255 / 25%);
+}
+
+.gitHubLink {
+	position: absolute;
+	right: 35px;
+	top: 35px;
+}
+
+.gitHubLink  svg {
+	fill: #fff;
+	width: 25px;
+	height: 25px;
 }

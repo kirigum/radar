@@ -7,6 +7,7 @@ import {
 	Cascader,
 } from 'antd'
 import { useTranslation } from 'react-i18next';
+import { GithubOutlined } from '@ant-design/icons';
 
 import { ContactUsModal } from '../../components/ContactUsModal/ContactUsModal';
 
@@ -66,8 +67,6 @@ export const Main = () => {
 
 	const handleChangeLanguage = () =>
     i18n.changeLanguage(currentLanguage === 'ua' ? 'ru' : 'ua');
-
-	console.log({ currentLanguage });
 
 	return (
 		<>
@@ -162,6 +161,15 @@ export const Main = () => {
 							{t('mainPage.footer.openModalBtnText')}
 						</Button>.
 					</p>
+
+					<a
+						target="_blank"
+						rel="noreferrer"
+						className="gitHubLink"
+						href="https://github.com/ukraineopposite/radar"
+					>
+						<GithubOutlined />
+					</a>
 				</Footer>
 			</Layout>
 		</>
